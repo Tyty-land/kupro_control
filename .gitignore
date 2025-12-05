@@ -1,0 +1,42 @@
+## Игнорировать файлы Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+## Игнорировать результаты сборки
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+## Игнорировать пакеты NuGet
+*.nupkg
+packages/
+
+## Игнорирование папки src
+src/
+
+## Игнорировать настройки пользователя
+*.userprefs
+
+## Игнорировать файлы резервных копий
+*~
+*.bak
+*.tmp
+
+## Игнорировать логи
+*.log
+logs/
+
+## Игнорировать конфиги, кроме шаблонов
+*.config
+!*.template.config
+
+## Исключения - не игнорировать эти файлы
+!packages.config
+!NLog.config
+!App.config
